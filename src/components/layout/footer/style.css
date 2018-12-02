@@ -1,0 +1,10 @@
+.footer-container {
+    font-family: 'Futura Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    width: 75%;
+    padding: 20px calc(12.5%);
+    background-color: #1e1e1ef5;
+}

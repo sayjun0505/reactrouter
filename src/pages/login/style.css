@@ -1,0 +1,103 @@
+.signup-label {
+    font-size: 20px;
+}
+
+.login-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    background: linear-gradient(180deg, rgba(36,36,36,1) 5%, rgba(18,18,18,1) 15%, transparent 100%);
+    box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.8);
+}
+
+.login-form-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.kep-login-facebook {
+    margin-top: 30px;
+}
+
+.btnFacebook {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #2d4373;
+    padding: 12px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btnFacebook:hover {
+    opacity: 0.8;
+}
+
+.sep-line {
+    margin: 15px auto 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.sep-line::before {
+    background: #FFFFFF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: calc(50% - 25px);
+}
+
+.sep-line::after {
+    background: #FFFFFF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: calc(50% - 25px);
+}
+
+.sep-line span {
+    display: inline-block;
+    font-size: 15px;
+    height: 30px;
+    padding: 5px 0 0;
+    position: relative;
+    vertical-align: top;
+    width: 50px;
+    z-index: 999;
+}
+
+.forget-password-label {
+    font-size: 14px;
+    padding-right: calc(50% - 130px);
+    cursor: pointer;
+}
+
+.login-button {
+    font-size: 16px;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    background-color: #D07920;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}

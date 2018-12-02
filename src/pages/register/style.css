@@ -1,0 +1,187 @@
+.signup-label {
+    font-size: 20px;
+}
+
+.register-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    background: linear-gradient(180deg, rgba(36,36,36,1) 5%, rgba(18,18,18,1) 15%, transparent 100%);
+    box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.8);
+}
+
+.register-form-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.kep-register-facebook {
+    margin-top: 30px;
+}
+
+.btnFacebook {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #2d4373;
+    padding: 12px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btnFacebook:hover {
+    opacity: 0.8;
+}
+
+.sep-line {
+    margin: 15px auto 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.sep-line::before {
+    background: #FFFFFF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: calc(50% - 25px);
+}
+
+.sep-line::after {
+    background: #FFFFFF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: calc(50% - 25px);
+}
+
+.sep-line span {
+    display: inline-block;
+    font-size: 15px;
+    height: 30px;
+    padding: 5px 0 0;
+    position: relative;
+    vertical-align: top;
+    width: 50px;
+    z-index: 999;
+}
+
+.forget-password-label {
+    font-size: 14px;
+    padding-right: calc(50% - 130px);
+    cursor: pointer;
+}
+
+.register-button {
+    font-size: 16px;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    background-color: #D07920;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    opacity: 0.8;
+}
+
+.policy-label {
+    font-size: 13px;
+    width: 60%;
+}
+
+.policy-label a {
+    color: #D07920;
+}
+
+.register-method-section {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.register-form-item {
+    display: none;
+}
+
+.register-form-item.active {
+    display: block;
+}
+
+.register-label {
+    font-size: 20px;
+}
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  .radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .radio-container input:checked ~ .checkmark {
+    background-color: #D07920;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .radio-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .radio-container .checkmark:after {
+        top: 4px;
+        left: 4px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+  }

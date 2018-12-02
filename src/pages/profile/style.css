@@ -1,0 +1,101 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.8);
+}
+
+.profile-header-container {
+    padding: 15px 30px;
+    border-bottom: 1px solid #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+    background: linear-gradient(180deg, rgba(36,36,36,1) 5%, rgba(18,18,18,1) 15%, #242424D0 100%);
+}
+
+.profile-body-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #242424d0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.profile-item-row {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-item-category {
+    border-bottom: 1px solid #FFFFFF3F;
+}
+
+.profile-item-label {
+    flex: 40%;
+    padding-left: calc(100%/10);
+}
+
+.profile-item-content {
+    flex: 60%;
+    padding-right: calc(100%/5);
+}
+
+.gender-row-container {
+    display: flex;
+    flex-direction: row;
+    gap: calc(100%/5);
+}
+
+.gendder-item-container {
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 50rem;
+    cursor: pointer;
+}
+
+.gendder-item-container svg{
+    margin-right: 5px;
+}
+
+.gendder-item-container.active {
+    border-color: #D07920;
+}
+
+.category-method-container {
+    display: flex;
+    flex-direction: row;
+    gap: calc(100%/10);
+}
+
+.company-section {
+    display: none;
+}
+
+.company-section.active {
+    display: block;
+}
+
+.profile-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-item-row .common-button svg {
+    margin-left: 5px;
+}
+
+.profile-item-row.wrapper-just-content-center {
+    gap: 30px;
+}

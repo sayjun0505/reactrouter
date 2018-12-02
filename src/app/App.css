@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
+                
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #242424;
+    background-image: url('../assets/img/back_img_gradient.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-family: 'Futura Std';
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #D07920;
+}
+
+.main-body-container {
+    flex: 1;
+    margin: 20px 10px;
+}
+
+.wrapper-center {
+    text-align: center;
+}
+
+.wrapper-align-center {
+    align-items: center;
+}
+
+.wrapper-just-content-center {
+    justify-content: center;
+}
+
+.common-button {
+    font-size: 14px;
+    padding: 10px 30px;
+    background-color: #242424D0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50rem;
+    cursor: pointer;
+    display: flex;
+}
+
+.common-button:hover {
+    box-shadow: 0px 0px 65px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+    opacity: 0.8;
+}
+
+.common-button:active {
+    border-color: #D07920;
+}
